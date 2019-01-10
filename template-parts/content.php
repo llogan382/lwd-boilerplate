@@ -11,7 +11,11 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-		<?php
+
+	<div class="container">
+		<div class="row">
+			<div class="col">
+			<?php
 		if ( is_singular() ) :
 			the_title( '<h1 class="entry-title">', '</h1>' );
 		else :
@@ -27,6 +31,13 @@
 				?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
+			</div>
+
+		</div>
+
+
+	</div>
+
 	</header><!-- .entry-header -->
 
 	<?php lwd_boilerplate_post_thumbnail(); ?>

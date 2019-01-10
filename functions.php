@@ -41,11 +41,17 @@ if ( ! function_exists( 'lwd_boilerplate_setup' ) ) :
 		 * @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
 		 */
 		add_theme_support( 'post-thumbnails' );
+		
+		// Register Custom Navigation Walker
+		require_once get_template_directory() . '/classes/class-wp-bootstrap-navwalker.php';
+
 
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
-			'menu-1' => esc_html__( 'Primary', 'lwd-boilerplate' ),
+			'secondary' => esc_html__( 'Secondary Menu', 'lwd-boilerplate' ),
+			'primary' => __( 'Primary Menu', 'lwd-boilerplate' ),
 		) );
+
 
 		/*
 		 * Switch default core markup for search form, comment form, and comments

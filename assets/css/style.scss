@@ -631,12 +631,6 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
-.main-navigation {
-	clear: both;
-	display: block;
-	float: left;
-	width: 100%;
-}
 
 .main-navigation ul {
 	display: none;
@@ -647,7 +641,6 @@ a:hover, a:active {
 
 .main-navigation ul ul {
 	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-	float: left;
 	position: absolute;
 	top: 100%;
 	left: -999em;
@@ -686,7 +679,7 @@ a:hover, a:active {
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled ul {
-	display: block;
+	// display: block;
 }
 
 @media screen and (min-width: 37.5em) {
@@ -789,31 +782,8 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # Clearings
 --------------------------------------------------------------*/
-.clear:before,
-.clear:after,
-.entry-content:before,
-.entry-content:after,
-.comment-content:before,
-.comment-content:after,
-.site-header:before,
-.site-header:after,
-.site-content:before,
-.site-content:after,
-.site-footer:before,
-.site-footer:after {
-	content: "";
-	display: table;
-	table-layout: fixed;
-}
 
-.clear:after,
-.entry-content:after,
-.comment-content:after,
-.site-header:after,
-.site-content:after,
-.site-footer:after {
-	clear: both;
-}
+
 
 /*--------------------------------------------------------------
 # Widgets

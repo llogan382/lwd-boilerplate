@@ -1,11 +1,11 @@
 {
-  "name": "your-project",
+  "name": "nc-agriculture-template",
   "description": "A WPGulp based project.",
   "version": "1.0.0",
   "author": "Author Name (https://twitter.com/MrAhmadAwais/)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ahmadawais/WPGulp"
+    "url": "git+https://github.com/ahmadawais/WPGulp.git"
   },
   "license": "MIT",
   "devDependencies": {
@@ -49,5 +49,18 @@
   },
   "dependencies": {
     "bootstrap": "^4.2.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/ahmadawais/WPGulp/issues"
+  },
+  "homepage": "https://github.com/ahmadawais/WPGulp#readme",
+  "main": ".eslintrc.js",
+  "keywords": [
+    "farmers",
+    "market",
+    "online",
+    "store",
+    "woocomerce",
+    "simple"
+  ]
 }

@@ -10,7 +10,7 @@
 
 ## Description
 
-This is a boilerplate template based on underscores to allow for a quick setup of a development environment using Local by Flywheel. Includes Bootstrap 4. 
+This is a boilerplate developed by Logan Web Dev for assisting local artisans quickly get online and setup shop to start selling their products. 
  
 **License:** MIT
 Source: https://necolas.github.io/normalize.css/
